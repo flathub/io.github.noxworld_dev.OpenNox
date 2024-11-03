@@ -10,23 +10,33 @@ github.com/beorn7/perks/quantile
 # github.com/cespare/xxhash/v2 v2.1.2
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
-# github.com/davecgh/go-spew v1.1.1
+# github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/fsnotify/fsnotify v1.4.9
-## explicit; go 1.13
+# github.com/fsnotify/fsnotify v1.7.0
+## explicit; go 1.17
 github.com/fsnotify/fsnotify
+# github.com/fxamacker/cbor/v2 v2.6.0
+## explicit; go 1.17
+github.com/fxamacker/cbor/v2
 # github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6
 ## explicit; go 1.12
 github.com/go-gl/gl/v3.3-core/gl
 github.com/go-gl/gl/v3.3-core/gl/KHR
-# github.com/golang/protobuf v1.5.2
+# github.com/golang/protobuf v1.5.3
 ## explicit; go 1.9
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
+# github.com/google/go-cmp v0.6.0
+## explicit; go 1.13
+github.com/google/go-cmp/cmp
+github.com/google/go-cmp/cmp/internal/diff
+github.com/google/go-cmp/cmp/internal/flags
+github.com/google/go-cmp/cmp/internal/function
+github.com/google/go-cmp/cmp/internal/value
 # github.com/hashicorp/hcl v1.0.0
 ## explicit
 github.com/hashicorp/hcl
@@ -50,7 +60,7 @@ github.com/huin/goupnp/ssdp
 # github.com/icza/bitio v1.1.0
 ## explicit; go 1.13
 github.com/icza/bitio
-# github.com/inconshreveable/mousetrap v1.0.1
+# github.com/inconshreveable/mousetrap v1.1.0
 ## explicit; go 1.18
 github.com/inconshreveable/mousetrap
 # github.com/jpillora/backoff v1.0.0
@@ -59,13 +69,13 @@ github.com/jpillora/backoff
 # github.com/julienschmidt/httprouter v1.3.0
 ## explicit; go 1.7
 github.com/julienschmidt/httprouter
-# github.com/magiconair/properties v1.8.5
-## explicit; go 1.13
+# github.com/magiconair/properties v1.8.7
+## explicit; go 1.19
 github.com/magiconair/properties
 # github.com/matttproud/golang_protobuf_extensions v1.0.1
 ## explicit
 github.com/matttproud/golang_protobuf_extensions/pbutil
-# github.com/mitchellh/mapstructure v1.4.1
+# github.com/mitchellh/mapstructure v1.5.0
 ## explicit; go 1.14
 github.com/mitchellh/mapstructure
 # github.com/noxworld-dev/lobby v0.0.0-20220306183851-3877f0a7002d
@@ -74,13 +84,37 @@ github.com/noxworld-dev/lobby
 # github.com/noxworld-dev/nat v0.1.0
 ## explicit; go 1.16
 github.com/noxworld-dev/nat
-# github.com/noxworld-dev/noxcrypt v0.0.0-20220809211245-2c69b67c4ae9
+# github.com/noxworld-dev/noxcrypt v0.0.0-20230831140413-02623e75408e
 ## explicit; go 1.17
 github.com/noxworld-dev/noxcrypt
-# github.com/noxworld-dev/opennox-lib v0.0.0-20221231150548-07fe5c19848c
-## explicit; go 1.18
+# github.com/noxworld-dev/noxscript/eud/v171 v171.3.1
+## explicit; go 1.19
+github.com/noxworld-dev/noxscript/eud/v171
+github.com/noxworld-dev/noxscript/eud/v171/eval
+# github.com/noxworld-dev/noxscript/ns v1.0.2
+## explicit; go 1.19
+github.com/noxworld-dev/noxscript/ns/asm
+# github.com/noxworld-dev/noxscript/ns/v3 v3.4.4
+## explicit; go 1.21
+github.com/noxworld-dev/noxscript/ns/v3
+github.com/noxworld-dev/noxscript/ns/v3/eval
+github.com/noxworld-dev/noxscript/ns/v3/vm
+# github.com/noxworld-dev/noxscript/ns/v4 v4.19.0
+## explicit; go 1.21
+github.com/noxworld-dev/noxscript/ns/v4
+github.com/noxworld-dev/noxscript/ns/v4/audio
+github.com/noxworld-dev/noxscript/ns/v4/class
+github.com/noxworld-dev/noxscript/ns/v4/damage
+github.com/noxworld-dev/noxscript/ns/v4/effect
+github.com/noxworld-dev/noxscript/ns/v4/enchant
+github.com/noxworld-dev/noxscript/ns/v4/eval
+github.com/noxworld-dev/noxscript/ns/v4/spell
+github.com/noxworld-dev/noxscript/ns/v4/subclass
+# github.com/noxworld-dev/opennox-lib v0.0.0-20240610100101-738fab12825b
+## explicit; go 1.21
 github.com/noxworld-dev/opennox-lib/bag
 github.com/noxworld-dev/opennox-lib/balance
+github.com/noxworld-dev/opennox-lib/binenc
 github.com/noxworld-dev/opennox-lib/cfg
 github.com/noxworld-dev/opennox-lib/client/keybind
 github.com/noxworld-dev/opennox-lib/client/seat
@@ -90,6 +124,7 @@ github.com/noxworld-dev/opennox-lib/color
 github.com/noxworld-dev/opennox-lib/common
 github.com/noxworld-dev/opennox-lib/console
 github.com/noxworld-dev/opennox-lib/datapath
+github.com/noxworld-dev/opennox-lib/enum
 github.com/noxworld-dev/opennox-lib/env
 github.com/noxworld-dev/opennox-lib/ifs
 github.com/noxworld-dev/opennox-lib/log
@@ -99,6 +134,7 @@ github.com/noxworld-dev/opennox-lib/noxfont
 github.com/noxworld-dev/opennox-lib/noximage
 github.com/noxworld-dev/opennox-lib/noximage/pcx
 github.com/noxworld-dev/opennox-lib/noxnet
+github.com/noxworld-dev/opennox-lib/noxnet/xfer
 github.com/noxworld-dev/opennox-lib/noxtest
 github.com/noxworld-dev/opennox-lib/nxz
 github.com/noxworld-dev/opennox-lib/object
@@ -108,23 +144,15 @@ github.com/noxworld-dev/opennox-lib/prand
 github.com/noxworld-dev/opennox-lib/script
 github.com/noxworld-dev/opennox-lib/script/eval
 github.com/noxworld-dev/opennox-lib/script/eval/imports
+github.com/noxworld-dev/opennox-lib/script/eval/stdlib
 github.com/noxworld-dev/opennox-lib/script/lua
 github.com/noxworld-dev/opennox-lib/script/lua/mapv0
-github.com/noxworld-dev/opennox-lib/script/noxscript
-github.com/noxworld-dev/opennox-lib/script/noxscript/noxasm
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/audio
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/class
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/damage
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/effect
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/enchant
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/spell
-github.com/noxworld-dev/opennox-lib/script/noxscript/ns/subclass
 github.com/noxworld-dev/opennox-lib/spell
 github.com/noxworld-dev/opennox-lib/strman
 github.com/noxworld-dev/opennox-lib/things
 github.com/noxworld-dev/opennox-lib/types
 github.com/noxworld-dev/opennox-lib/wall
+github.com/noxworld-dev/opennox-lib/xfer
 # github.com/noxworld-dev/vqa-decode v0.0.0-20220408200150-8bbbe7a064f7
 ## explicit; go 1.16
 github.com/noxworld-dev/vqa-decode/algo
@@ -132,10 +160,14 @@ github.com/noxworld-dev/vqa-decode/movies
 # github.com/noxworld-dev/xwis v0.0.0-20220204182326-c5d2fc18e75e
 ## explicit; go 1.13
 github.com/noxworld-dev/xwis
-# github.com/pelletier/go-toml v1.9.3
-## explicit; go 1.12
-github.com/pelletier/go-toml
-# github.com/pmezard/go-difflib v1.0.0
+# github.com/pelletier/go-toml/v2 v2.1.1
+## explicit; go 1.16
+github.com/pelletier/go-toml/v2
+github.com/pelletier/go-toml/v2/internal/characters
+github.com/pelletier/go-toml/v2/internal/danger
+github.com/pelletier/go-toml/v2/internal/tracker
+github.com/pelletier/go-toml/v2/unstable
+# github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
 ## explicit
 github.com/pmezard/go-difflib/difflib
 # github.com/prometheus/client_golang v1.12.1
@@ -157,31 +189,59 @@ github.com/prometheus/common/model
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
-# github.com/spf13/afero v1.6.0
-## explicit; go 1.13
+# github.com/sagikazarmark/locafero v0.4.0
+## explicit; go 1.20
+github.com/sagikazarmark/locafero
+# github.com/sagikazarmark/slog-shim v0.1.0
+## explicit; go 1.20
+github.com/sagikazarmark/slog-shim
+# github.com/shoenig/test v1.7.0
+## explicit; go 1.18
+github.com/shoenig/test/interfaces
+github.com/shoenig/test/internal/assertions
+github.com/shoenig/test/internal/brokenfs
+github.com/shoenig/test/internal/constraints
+github.com/shoenig/test/internal/util
+github.com/shoenig/test/must
+github.com/shoenig/test/wait
+# github.com/sourcegraph/conc v0.3.0
+## explicit; go 1.19
+github.com/sourcegraph/conc
+github.com/sourcegraph/conc/internal/multierror
+github.com/sourcegraph/conc/iter
+github.com/sourcegraph/conc/panics
+# github.com/spf13/afero v1.11.0
+## explicit; go 1.19
 github.com/spf13/afero
+github.com/spf13/afero/internal/common
 github.com/spf13/afero/mem
-# github.com/spf13/cast v1.3.1
-## explicit
+# github.com/spf13/cast v1.6.0
+## explicit; go 1.19
 github.com/spf13/cast
-# github.com/spf13/cobra v1.5.0
+# github.com/spf13/cobra v1.8.0
 ## explicit; go 1.15
 github.com/spf13/cobra
-# github.com/spf13/jwalterweatherman v1.1.0
-## explicit
-github.com/spf13/jwalterweatherman
 # github.com/spf13/pflag v1.0.5
 ## explicit; go 1.12
 github.com/spf13/pflag
-# github.com/spf13/viper v1.8.1
-## explicit; go 1.12
+# github.com/spf13/viper v1.18.2
+## explicit; go 1.18
 github.com/spf13/viper
-# github.com/stretchr/testify v1.8.0
-## explicit; go 1.13
+github.com/spf13/viper/internal/encoding
+github.com/spf13/viper/internal/encoding/dotenv
+github.com/spf13/viper/internal/encoding/hcl
+github.com/spf13/viper/internal/encoding/ini
+github.com/spf13/viper/internal/encoding/javaproperties
+github.com/spf13/viper/internal/encoding/json
+github.com/spf13/viper/internal/encoding/toml
+github.com/spf13/viper/internal/encoding/yaml
+github.com/spf13/viper/internal/features
+# github.com/stretchr/testify v1.8.4
+## explicit; go 1.20
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/require
-# github.com/subosito/gotenv v1.2.0
-## explicit
+# github.com/subosito/gotenv v1.6.0
+## explicit; go 1.18
 github.com/subosito/gotenv
 # github.com/szhublox/opennoxcontrol v0.0.0-20211214215120-c4bc4281312f
 ## explicit; go 1.17
@@ -195,13 +255,17 @@ github.com/tawesoft/golib/v2/must
 # github.com/timshannon/go-openal v0.0.0-20170220204755-e0ed4c67cffe => github.com/noxworld-dev/go-openal v0.0.0-20220410091615-164a70f24e7c
 ## explicit
 github.com/timshannon/go-openal/openal
-# github.com/traefik/yaegi v0.14.4-0.20221213104605-eee72d1aae66
-## explicit; go 1.18
+# github.com/traefik/yaegi v0.16.1
+## explicit; go 1.21
 github.com/traefik/yaegi/internal/unsafe2
 github.com/traefik/yaegi/interp
-# github.com/veandco/go-sdl2 v0.4.25
+github.com/traefik/yaegi/stdlib/generic
+# github.com/veandco/go-sdl2 v0.5.0-alpha.4
 ## explicit; go 1.15
 github.com/veandco/go-sdl2/sdl
+# github.com/x448/float16 v0.8.4
+## explicit; go 1.11
+github.com/x448/float16
 # github.com/youpy/go-riff v0.1.0
 ## explicit
 github.com/youpy/go-riff
@@ -217,53 +281,66 @@ github.com/yuin/gopher-lua/pm
 # github.com/zaf/g711 v0.0.0-20190814101024-76a4a538f52b
 ## explicit
 github.com/zaf/g711
-# golang.org/x/crypto v0.1.0
-## explicit; go 1.17
+# go.uber.org/multierr v1.11.0
+## explicit; go 1.19
+go.uber.org/multierr
+# golang.org/x/crypto v0.19.0
+## explicit; go 1.18
+golang.org/x/crypto/blake2b
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/curve25519/internal/field
-golang.org/x/crypto/ed25519
 golang.org/x/crypto/internal/alias
 golang.org/x/crypto/internal/poly1305
 golang.org/x/crypto/ssh
 golang.org/x/crypto/ssh/internal/bcrypt_pbkdf
-# golang.org/x/exp v0.0.0-20230111222715-75897c7a292a
-## explicit; go 1.18
+# golang.org/x/exp v0.0.0-20240213143201-ec583247a57a
+## explicit; go 1.20
+golang.org/x/exp/constraints
 golang.org/x/exp/maps
+golang.org/x/exp/slices
+golang.org/x/exp/slog
+golang.org/x/exp/slog/internal
+golang.org/x/exp/slog/internal/buffer
 golang.org/x/exp/utf8string
-# golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
-## explicit; go 1.12
+# golang.org/x/image v0.15.0
+## explicit; go 1.18
 golang.org/x/image/font
 golang.org/x/image/font/opentype
 golang.org/x/image/font/sfnt
 golang.org/x/image/math/fixed
 golang.org/x/image/vector
-# golang.org/x/mod v0.6.0
-## explicit; go 1.17
+# golang.org/x/mod v0.15.0
+## explicit; go 1.18
 golang.org/x/mod/semver
-# golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-## explicit
+# golang.org/x/sync v0.6.0
+## explicit; go 1.18
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.4.0
-## explicit; go 1.17
+# golang.org/x/sys v0.17.0
+## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
-golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/text v0.6.0
-## explicit; go 1.17
+# golang.org/x/text v0.14.0
+## explicit; go 1.18
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/internal
 golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/runes
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# google.golang.org/protobuf v1.27.1
-## explicit; go 1.9
+# golang.org/x/tools v0.18.0
+## explicit; go 1.18
+golang.org/x/tools/go/ast/astutil
+# google.golang.org/protobuf v1.31.0
+## explicit; go 1.11
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
@@ -294,7 +371,7 @@ google.golang.org/protobuf/types/descriptorpb
 google.golang.org/protobuf/types/known/anypb
 google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/timestamppb
-# gopkg.in/ini.v1 v1.62.0
+# gopkg.in/ini.v1 v1.67.0
 ## explicit
 gopkg.in/ini.v1
 # gopkg.in/irc.v3 v3.1.4
