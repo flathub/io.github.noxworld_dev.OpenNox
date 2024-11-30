@@ -7,7 +7,7 @@ github.com/alessio/shellescape
 # github.com/beorn7/perks v1.0.1
 ## explicit; go 1.11
 github.com/beorn7/perks/quantile
-# github.com/cespare/xxhash/v2 v2.1.2
+# github.com/cespare/xxhash/v2 v2.3.0
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
 # github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
@@ -23,13 +23,6 @@ github.com/fxamacker/cbor/v2
 ## explicit; go 1.12
 github.com/go-gl/gl/v3.3-core/gl
 github.com/go-gl/gl/v3.3-core/gl/KHR
-# github.com/golang/protobuf v1.5.3
-## explicit; go 1.9
-github.com/golang/protobuf/proto
-github.com/golang/protobuf/ptypes
-github.com/golang/protobuf/ptypes/any
-github.com/golang/protobuf/ptypes/duration
-github.com/golang/protobuf/ptypes/timestamp
 # github.com/google/go-cmp v0.6.0
 ## explicit; go 1.13
 github.com/google/go-cmp/cmp
@@ -49,7 +42,7 @@ github.com/hashicorp/hcl/hcl/token
 github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
-# github.com/huin/goupnp v1.0.2
+# github.com/huin/goupnp v1.3.0
 ## explicit; go 1.14
 github.com/huin/goupnp
 github.com/huin/goupnp/dcps/internetgateway2
@@ -69,98 +62,107 @@ github.com/jpillora/backoff
 # github.com/julienschmidt/httprouter v1.3.0
 ## explicit; go 1.7
 github.com/julienschmidt/httprouter
+# github.com/klauspost/compress v1.17.9
+## explicit; go 1.20
+github.com/klauspost/compress
+github.com/klauspost/compress/fse
+github.com/klauspost/compress/huff0
+github.com/klauspost/compress/internal/cpuinfo
+github.com/klauspost/compress/internal/snapref
+github.com/klauspost/compress/zstd
+github.com/klauspost/compress/zstd/internal/xxhash
 # github.com/magiconair/properties v1.8.7
 ## explicit; go 1.19
 github.com/magiconair/properties
-# github.com/matttproud/golang_protobuf_extensions v1.0.1
-## explicit
-github.com/matttproud/golang_protobuf_extensions/pbutil
 # github.com/mitchellh/mapstructure v1.5.0
 ## explicit; go 1.14
 github.com/mitchellh/mapstructure
-# github.com/noxworld-dev/lobby v0.0.0-20220306183851-3877f0a7002d
-## explicit; go 1.17
-github.com/noxworld-dev/lobby
-# github.com/noxworld-dev/nat v0.1.0
-## explicit; go 1.16
-github.com/noxworld-dev/nat
-# github.com/noxworld-dev/noxcrypt v0.0.0-20230831140413-02623e75408e
-## explicit; go 1.17
-github.com/noxworld-dev/noxcrypt
-# github.com/noxworld-dev/noxscript/eud/v171 v171.3.1
-## explicit; go 1.19
-github.com/noxworld-dev/noxscript/eud/v171
-github.com/noxworld-dev/noxscript/eud/v171/eval
-# github.com/noxworld-dev/noxscript/ns v1.0.2
-## explicit; go 1.19
-github.com/noxworld-dev/noxscript/ns/asm
-# github.com/noxworld-dev/noxscript/ns/v3 v3.4.4
+# github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+## explicit
+github.com/munnerz/goautoneg
+# github.com/opennox/libs v0.0.0-20241128194711-7857287f593a
+## explicit; go 1.22.0
+github.com/opennox/libs/bag
+github.com/opennox/libs/balance
+github.com/opennox/libs/binenc
+github.com/opennox/libs/cfg
+github.com/opennox/libs/client/keybind
+github.com/opennox/libs/client/seat
+github.com/opennox/libs/client/seat/opengl
+github.com/opennox/libs/client/seat/sdl
+github.com/opennox/libs/color
+github.com/opennox/libs/common
+github.com/opennox/libs/console
+github.com/opennox/libs/datapath
+github.com/opennox/libs/enum
+github.com/opennox/libs/env
+github.com/opennox/libs/ifs
+github.com/opennox/libs/log
+github.com/opennox/libs/maps
+github.com/opennox/libs/modifiers
+github.com/opennox/libs/noxfont
+github.com/opennox/libs/noximage
+github.com/opennox/libs/noximage/pcx
+github.com/opennox/libs/noxnet
+github.com/opennox/libs/noxnet/netxfer
+github.com/opennox/libs/noxtest
+github.com/opennox/libs/nxz
+github.com/opennox/libs/object
+github.com/opennox/libs/platform
+github.com/opennox/libs/player
+github.com/opennox/libs/prand
+github.com/opennox/libs/script
+github.com/opennox/libs/script/eval
+github.com/opennox/libs/script/eval/imports
+github.com/opennox/libs/script/eval/stdlib
+github.com/opennox/libs/script/lua
+github.com/opennox/libs/script/lua/mapv0
+github.com/opennox/libs/spell
+github.com/opennox/libs/strman
+github.com/opennox/libs/things
+github.com/opennox/libs/types
+github.com/opennox/libs/wall
+github.com/opennox/libs/xfer
+# github.com/opennox/lobby v0.0.0-20241128123353-7ecb87bee49a
 ## explicit; go 1.21
-github.com/noxworld-dev/noxscript/ns/v3
-github.com/noxworld-dev/noxscript/ns/v3/eval
-github.com/noxworld-dev/noxscript/ns/v3/vm
-# github.com/noxworld-dev/noxscript/ns/v4 v4.19.0
+github.com/opennox/lobby
+# github.com/opennox/nat v0.3.0
 ## explicit; go 1.21
-github.com/noxworld-dev/noxscript/ns/v4
-github.com/noxworld-dev/noxscript/ns/v4/audio
-github.com/noxworld-dev/noxscript/ns/v4/class
-github.com/noxworld-dev/noxscript/ns/v4/damage
-github.com/noxworld-dev/noxscript/ns/v4/effect
-github.com/noxworld-dev/noxscript/ns/v4/enchant
-github.com/noxworld-dev/noxscript/ns/v4/eval
-github.com/noxworld-dev/noxscript/ns/v4/spell
-github.com/noxworld-dev/noxscript/ns/v4/subclass
-# github.com/noxworld-dev/opennox-lib v0.0.0-20240610100101-738fab12825b
+github.com/opennox/nat
+# github.com/opennox/noxcrypt v0.1.0
 ## explicit; go 1.21
-github.com/noxworld-dev/opennox-lib/bag
-github.com/noxworld-dev/opennox-lib/balance
-github.com/noxworld-dev/opennox-lib/binenc
-github.com/noxworld-dev/opennox-lib/cfg
-github.com/noxworld-dev/opennox-lib/client/keybind
-github.com/noxworld-dev/opennox-lib/client/seat
-github.com/noxworld-dev/opennox-lib/client/seat/opengl
-github.com/noxworld-dev/opennox-lib/client/seat/sdl
-github.com/noxworld-dev/opennox-lib/color
-github.com/noxworld-dev/opennox-lib/common
-github.com/noxworld-dev/opennox-lib/console
-github.com/noxworld-dev/opennox-lib/datapath
-github.com/noxworld-dev/opennox-lib/enum
-github.com/noxworld-dev/opennox-lib/env
-github.com/noxworld-dev/opennox-lib/ifs
-github.com/noxworld-dev/opennox-lib/log
-github.com/noxworld-dev/opennox-lib/maps
-github.com/noxworld-dev/opennox-lib/modifiers
-github.com/noxworld-dev/opennox-lib/noxfont
-github.com/noxworld-dev/opennox-lib/noximage
-github.com/noxworld-dev/opennox-lib/noximage/pcx
-github.com/noxworld-dev/opennox-lib/noxnet
-github.com/noxworld-dev/opennox-lib/noxnet/xfer
-github.com/noxworld-dev/opennox-lib/noxtest
-github.com/noxworld-dev/opennox-lib/nxz
-github.com/noxworld-dev/opennox-lib/object
-github.com/noxworld-dev/opennox-lib/platform
-github.com/noxworld-dev/opennox-lib/player
-github.com/noxworld-dev/opennox-lib/prand
-github.com/noxworld-dev/opennox-lib/script
-github.com/noxworld-dev/opennox-lib/script/eval
-github.com/noxworld-dev/opennox-lib/script/eval/imports
-github.com/noxworld-dev/opennox-lib/script/eval/stdlib
-github.com/noxworld-dev/opennox-lib/script/lua
-github.com/noxworld-dev/opennox-lib/script/lua/mapv0
-github.com/noxworld-dev/opennox-lib/spell
-github.com/noxworld-dev/opennox-lib/strman
-github.com/noxworld-dev/opennox-lib/things
-github.com/noxworld-dev/opennox-lib/types
-github.com/noxworld-dev/opennox-lib/wall
-github.com/noxworld-dev/opennox-lib/xfer
-# github.com/noxworld-dev/vqa-decode v0.0.0-20220408200150-8bbbe7a064f7
-## explicit; go 1.16
-github.com/noxworld-dev/vqa-decode/algo
-github.com/noxworld-dev/vqa-decode/movies
-# github.com/noxworld-dev/xwis v0.0.0-20220204182326-c5d2fc18e75e
-## explicit; go 1.13
-github.com/noxworld-dev/xwis
-# github.com/pelletier/go-toml/v2 v2.1.1
+github.com/opennox/noxcrypt
+# github.com/opennox/noxscript/eud/v171 v171.3.5
+## explicit; go 1.22.0
+github.com/opennox/noxscript/eud/v171
+github.com/opennox/noxscript/eud/v171/eval
+# github.com/opennox/noxscript/ns v1.0.3
+## explicit; go 1.21
+github.com/opennox/noxscript/ns/asm
+# github.com/opennox/noxscript/ns/v3 v3.4.8
+## explicit; go 1.22.0
+github.com/opennox/noxscript/ns/v3
+github.com/opennox/noxscript/ns/v3/eval
+github.com/opennox/noxscript/ns/v3/vm
+# github.com/opennox/noxscript/ns/v4 v4.21.4
+## explicit; go 1.22.0
+github.com/opennox/noxscript/ns/v4
+github.com/opennox/noxscript/ns/v4/audio
+github.com/opennox/noxscript/ns/v4/class
+github.com/opennox/noxscript/ns/v4/damage
+github.com/opennox/noxscript/ns/v4/effect
+github.com/opennox/noxscript/ns/v4/enchant
+github.com/opennox/noxscript/ns/v4/eval
+github.com/opennox/noxscript/ns/v4/spell
+github.com/opennox/noxscript/ns/v4/subclass
+# github.com/opennox/vqa-decode v0.0.0-20241130133745-a9e41b67fb2d
+## explicit; go 1.21
+github.com/opennox/vqa-decode/algo
+github.com/opennox/vqa-decode/movies
+# github.com/opennox/xwis v0.1.1
+## explicit; go 1.21
+github.com/opennox/xwis
+# github.com/pelletier/go-toml/v2 v2.2.2
 ## explicit; go 1.16
 github.com/pelletier/go-toml/v2
 github.com/pelletier/go-toml/v2/internal/characters
@@ -170,22 +172,23 @@ github.com/pelletier/go-toml/v2/unstable
 # github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
 ## explicit
 github.com/pmezard/go-difflib/difflib
-# github.com/prometheus/client_golang v1.12.1
-## explicit; go 1.13
+# github.com/prometheus/client_golang v1.20.5
+## explicit; go 1.20
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil/header
 github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/internal
 github.com/prometheus/client_golang/prometheus/promauto
 github.com/prometheus/client_golang/prometheus/promhttp
-# github.com/prometheus/client_model v0.2.0
-## explicit; go 1.9
+# github.com/prometheus/client_model v0.6.1
+## explicit; go 1.19
 github.com/prometheus/client_model/go
-# github.com/prometheus/common v0.32.1
-## explicit; go 1.13
+# github.com/prometheus/common v0.55.0
+## explicit; go 1.20
 github.com/prometheus/common/expfmt
-github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg
 github.com/prometheus/common/model
-# github.com/prometheus/procfs v0.7.3
-## explicit; go 1.13
+# github.com/prometheus/procfs v0.15.1
+## explicit; go 1.20
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
@@ -195,11 +198,10 @@ github.com/sagikazarmark/locafero
 # github.com/sagikazarmark/slog-shim v0.1.0
 ## explicit; go 1.20
 github.com/sagikazarmark/slog-shim
-# github.com/shoenig/test v1.7.0
+# github.com/shoenig/test v1.12.0
 ## explicit; go 1.18
 github.com/shoenig/test/interfaces
 github.com/shoenig/test/internal/assertions
-github.com/shoenig/test/internal/brokenfs
 github.com/shoenig/test/internal/constraints
 github.com/shoenig/test/internal/util
 github.com/shoenig/test/must
@@ -218,14 +220,14 @@ github.com/spf13/afero/mem
 # github.com/spf13/cast v1.6.0
 ## explicit; go 1.19
 github.com/spf13/cast
-# github.com/spf13/cobra v1.8.0
+# github.com/spf13/cobra v1.8.1
 ## explicit; go 1.15
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
 ## explicit; go 1.12
 github.com/spf13/pflag
-# github.com/spf13/viper v1.18.2
-## explicit; go 1.18
+# github.com/spf13/viper v1.19.0
+## explicit; go 1.20
 github.com/spf13/viper
 github.com/spf13/viper/internal/encoding
 github.com/spf13/viper/internal/encoding/dotenv
@@ -236,9 +238,10 @@ github.com/spf13/viper/internal/encoding/json
 github.com/spf13/viper/internal/encoding/toml
 github.com/spf13/viper/internal/encoding/yaml
 github.com/spf13/viper/internal/features
-# github.com/stretchr/testify v1.8.4
-## explicit; go 1.20
+# github.com/stretchr/testify v1.10.0
+## explicit; go 1.17
 github.com/stretchr/testify/assert
+github.com/stretchr/testify/assert/yaml
 github.com/stretchr/testify/require
 # github.com/subosito/gotenv v1.6.0
 ## explicit; go 1.18
@@ -252,10 +255,10 @@ github.com/szhublox/opennoxcontrol/assets
 github.com/tawesoft/golib/v2/dialog
 github.com/tawesoft/golib/v2/ks
 github.com/tawesoft/golib/v2/must
-# github.com/timshannon/go-openal v0.0.0-20170220204755-e0ed4c67cffe => github.com/noxworld-dev/go-openal v0.0.0-20220410091615-164a70f24e7c
+# github.com/timshannon/go-openal v0.0.0-20170220204755-e0ed4c67cffe => github.com/opennox/go-openal v0.0.0-20220410091615-164a70f24e7c
 ## explicit
 github.com/timshannon/go-openal/openal
-# github.com/traefik/yaegi v0.16.1
+# github.com/traefik/yaegi v0.16.2-0.20240730175404-e686f55767b9
 ## explicit; go 1.21
 github.com/traefik/yaegi/internal/unsafe2
 github.com/traefik/yaegi/interp
@@ -284,19 +287,18 @@ github.com/zaf/g711
 # go.uber.org/multierr v1.11.0
 ## explicit; go 1.19
 go.uber.org/multierr
-# golang.org/x/crypto v0.19.0
-## explicit; go 1.18
+# golang.org/x/crypto v0.29.0
+## explicit; go 1.20
 golang.org/x/crypto/blake2b
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/curve25519
-golang.org/x/crypto/curve25519/internal/field
 golang.org/x/crypto/internal/alias
 golang.org/x/crypto/internal/poly1305
 golang.org/x/crypto/ssh
 golang.org/x/crypto/ssh/internal/bcrypt_pbkdf
-# golang.org/x/exp v0.0.0-20240213143201-ec583247a57a
-## explicit; go 1.20
+# golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f
+## explicit; go 1.22.0
 golang.org/x/exp/constraints
 golang.org/x/exp/maps
 golang.org/x/exp/slices
@@ -304,27 +306,27 @@ golang.org/x/exp/slog
 golang.org/x/exp/slog/internal
 golang.org/x/exp/slog/internal/buffer
 golang.org/x/exp/utf8string
-# golang.org/x/image v0.15.0
+# golang.org/x/image v0.22.0
 ## explicit; go 1.18
 golang.org/x/image/font
 golang.org/x/image/font/opentype
 golang.org/x/image/font/sfnt
 golang.org/x/image/math/fixed
 golang.org/x/image/vector
-# golang.org/x/mod v0.15.0
-## explicit; go 1.18
+# golang.org/x/mod v0.22.0
+## explicit; go 1.22.0
 golang.org/x/mod/semver
-# golang.org/x/sync v0.6.0
+# golang.org/x/sync v0.9.0
 ## explicit; go 1.18
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.17.0
+# golang.org/x/sys v0.27.0
 ## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/text v0.14.0
+# golang.org/x/text v0.20.0
 ## explicit; go 1.18
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
@@ -336,16 +338,18 @@ golang.org/x/text/runes
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.18.0
-## explicit; go 1.18
+# golang.org/x/tools v0.27.0
+## explicit; go 1.22.0
 golang.org/x/tools/go/ast/astutil
-# google.golang.org/protobuf v1.31.0
-## explicit; go 1.11
+# google.golang.org/protobuf v1.34.2
+## explicit; go 1.20
+google.golang.org/protobuf/encoding/protodelim
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
 google.golang.org/protobuf/internal/descopts
 google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/editiondefaults
 google.golang.org/protobuf/internal/encoding/defval
 google.golang.org/protobuf/internal/encoding/messageset
 google.golang.org/protobuf/internal/encoding/tag
@@ -362,14 +366,10 @@ google.golang.org/protobuf/internal/set
 google.golang.org/protobuf/internal/strs
 google.golang.org/protobuf/internal/version
 google.golang.org/protobuf/proto
-google.golang.org/protobuf/reflect/protodesc
 google.golang.org/protobuf/reflect/protoreflect
 google.golang.org/protobuf/reflect/protoregistry
 google.golang.org/protobuf/runtime/protoiface
 google.golang.org/protobuf/runtime/protoimpl
-google.golang.org/protobuf/types/descriptorpb
-google.golang.org/protobuf/types/known/anypb
-google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/timestamppb
 # gopkg.in/ini.v1 v1.67.0
 ## explicit
@@ -383,4 +383,4 @@ gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
-# github.com/timshannon/go-openal => github.com/noxworld-dev/go-openal v0.0.0-20220410091615-164a70f24e7c
+# github.com/timshannon/go-openal => github.com/opennox/go-openal v0.0.0-20220410091615-164a70f24e7c
