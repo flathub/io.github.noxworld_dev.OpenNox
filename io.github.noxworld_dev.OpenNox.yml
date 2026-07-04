@@ -1,9 +1,9 @@
 app-id: io.github.noxworld_dev.OpenNox
 command: opennox
 
-runtime-version: &runtime-version '22.08'
+runtime-version: &runtime-version '24.08'
 x-gl-version: &gl-version '1.4'
-x-gl-versions: &gl-versions 22.08;1.4
+x-gl-versions: &gl-versions 24.08;1.4
 
 sdk: org.freedesktop.Sdk
 sdk-extensions:
