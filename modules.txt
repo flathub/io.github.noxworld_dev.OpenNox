@@ -16,7 +16,7 @@ github.com/davecgh/go-spew/spew
 # github.com/fsnotify/fsnotify v1.7.0
 ## explicit; go 1.17
 github.com/fsnotify/fsnotify
-# github.com/fxamacker/cbor/v2 v2.6.0
+# github.com/fxamacker/cbor/v2 v2.7.0
 ## explicit; go 1.17
 github.com/fxamacker/cbor/v2
 # github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6
@@ -80,7 +80,7 @@ github.com/mitchellh/mapstructure
 # github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
 ## explicit
 github.com/munnerz/goautoneg
-# github.com/opennox/libs v0.0.0-20241128194711-7857287f593a
+# github.com/opennox/libs v0.0.0-20241214142037-24bbb986fab8
 ## explicit; go 1.22.0
 github.com/opennox/libs/bag
 github.com/opennox/libs/balance
@@ -104,7 +104,11 @@ github.com/opennox/libs/noxfont
 github.com/opennox/libs/noximage
 github.com/opennox/libs/noximage/pcx
 github.com/opennox/libs/noxnet
+github.com/opennox/libs/noxnet/discover
+github.com/opennox/libs/noxnet/mapsend
+github.com/opennox/libs/noxnet/netmsg
 github.com/opennox/libs/noxnet/netxfer
+github.com/opennox/libs/noxnet/udpconn
 github.com/opennox/libs/noxtest
 github.com/opennox/libs/nxz
 github.com/opennox/libs/object
@@ -126,7 +130,7 @@ github.com/opennox/libs/xfer
 # github.com/opennox/lobby v0.0.0-20241128123353-7ecb87bee49a
 ## explicit; go 1.21
 github.com/opennox/lobby
-# github.com/opennox/nat v0.3.0
+# github.com/opennox/nat v0.3.1
 ## explicit; go 1.21
 github.com/opennox/nat
 # github.com/opennox/noxcrypt v0.1.0
@@ -144,9 +148,10 @@ github.com/opennox/noxscript/ns/asm
 github.com/opennox/noxscript/ns/v3
 github.com/opennox/noxscript/ns/v3/eval
 github.com/opennox/noxscript/ns/v3/vm
-# github.com/opennox/noxscript/ns/v4 v4.21.4
+# github.com/opennox/noxscript/ns/v4 v4.25.0
 ## explicit; go 1.22.0
 github.com/opennox/noxscript/ns/v4
+github.com/opennox/noxscript/ns/v4/abil
 github.com/opennox/noxscript/ns/v4/audio
 github.com/opennox/noxscript/ns/v4/class
 github.com/opennox/noxscript/ns/v4/damage
@@ -287,11 +292,13 @@ github.com/zaf/g711
 # go.uber.org/multierr v1.11.0
 ## explicit; go 1.19
 go.uber.org/multierr
-# golang.org/x/crypto v0.29.0
-## explicit; go 1.20
+# golang.org/x/crypto v0.53.0
+## explicit; go 1.25.0
 golang.org/x/crypto/blake2b
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
+golang.org/x/crypto/cryptobyte
+golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/internal/alias
 golang.org/x/crypto/internal/poly1305
@@ -306,28 +313,28 @@ golang.org/x/exp/slog
 golang.org/x/exp/slog/internal
 golang.org/x/exp/slog/internal/buffer
 golang.org/x/exp/utf8string
-# golang.org/x/image v0.22.0
-## explicit; go 1.18
+# golang.org/x/image v0.43.0
+## explicit; go 1.25.0
 golang.org/x/image/font
 golang.org/x/image/font/opentype
 golang.org/x/image/font/sfnt
 golang.org/x/image/math/fixed
 golang.org/x/image/vector
-# golang.org/x/mod v0.22.0
-## explicit; go 1.22.0
+# golang.org/x/mod v0.36.0
+## explicit; go 1.25.0
 golang.org/x/mod/semver
-# golang.org/x/sync v0.9.0
-## explicit; go 1.18
+# golang.org/x/sync v0.21.0
+## explicit; go 1.25.0
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.27.0
-## explicit; go 1.18
+# golang.org/x/sys v0.46.0
+## explicit; go 1.25.0
 golang.org/x/sys/cpu
 golang.org/x/sys/execabs
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/text v0.20.0
-## explicit; go 1.18
+# golang.org/x/text v0.38.0
+## explicit; go 1.25.0
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/internal
@@ -338,8 +345,8 @@ golang.org/x/text/runes
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.27.0
-## explicit; go 1.22.0
+# golang.org/x/tools v0.45.0
+## explicit; go 1.25.0
 golang.org/x/tools/go/ast/astutil
 # google.golang.org/protobuf v1.34.2
 ## explicit; go 1.20
